@@ -1,0 +1,68 @@
+/* Styling för containern och huvudinnehållet */
+.container {
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.huvud-sektion {
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0px 5px rgba(104, 104, 104, 0.8);
+  margin: 2rem;
+  margin-top: 8rem;
+  width: 90%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+.Listatext {
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.meddelande {
+  color: red;
+}
+
+.lista {
+  display: inline;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+/* Styling för fardig klassen som används för att dra ett streck igenom texten och ändra färg på todos som är markerade */
+
+.fardig {
+  text-decoration: line-through;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+  color: darkgray;
+}
+
+/* tar bort stylingen ifrån listan så att det inte är någon prick framför varje todo */
+.nyToDo {
+  list-style: none;
+}
+
+.score {
+  margin-top: 5rem;
+  text-align: right;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.ToDoBeskrivning {
+  cursor: pointer;
+}
+
+.papperskorg {
+  margin-left: 1rem;
+  cursor: pointer;
+}
